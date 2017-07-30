@@ -5,7 +5,7 @@ function DialogExportCtrl($scope, $mdDialog, $timeout, exportObj, single, theme,
 	$scope.formats = [
 		{ name: "Android XML", key: 'android'},
 		{ name: "Angular JS (Material)", key: 'angularjs'},
-		{ name: "Angular JS 2 (Material 2)", key: 'angularjs2'},
+		{ name: "Angular (Material 2)", key: 'angular'},
 		{ name: "Ember Paper", key: 'ember'},
 		{ name: "Material Design Lite (SCSS)", key: 'md-lite'},
 		{ name: "Material UI (React)", key: 'materialui'},

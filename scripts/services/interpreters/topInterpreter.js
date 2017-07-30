@@ -1,7 +1,7 @@
 mcgApp.service('TopInterpreter',
     [
         'AngularJsInterpreter',
-        'AngularJs2Interpreter',
+        'AngularInterpreter',
         'MaterialUiInterpreter',
         'MaterialUiNextInterpreter',
         'AndroidInterpreter',
@@ -11,7 +11,7 @@ mcgApp.service('TopInterpreter',
         'VueInterpreter',
         function(
             AngularJsInterpreter,
-            AngularJs2Interpreter,
+            AngularInterpreter,
             MaterialUiInterpreter,
             MaterialUiNextInterpreter,
             AndroidInterpreter,
@@ -26,8 +26,8 @@ mcgApp.service('TopInterpreter',
                 switch (name) {
                     case "angularjs":
                         return AngularJsInterpreter;
-                    case "angularjs2":
-                        return AngularJs2Interpreter;
+                    case "angular":
+                        return AngularInterpreter;
                     case "materialui":
                         return MaterialUiInterpreter;
                     case "materialuinext":

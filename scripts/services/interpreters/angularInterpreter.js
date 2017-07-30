@@ -1,4 +1,4 @@
-mcgApp.service('AngularJs2Interpreter', function () {
+mcgApp.service('AngularInterpreter', function () {
     this.export = function(exportObj, theme, single)
     {
         this.code = '';
@@ -10,7 +10,7 @@ mcgApp.service('AngularJs2Interpreter', function () {
     };
 
     /*
-     * AngularJS 2
+     * Angular versions 2+
      * Material 2 Formatting Functions
      */
     this.buildExport = function () {
